@@ -22,7 +22,7 @@ Write a function that determines damage level given earthquake intensity measure
         } else if (intensity >= 7.5 ) {
             damageLevel = "Catastrophe: most buildings destroyed";
         } else {  // invalid inputs
-            damageLevel = "Richter Scale Number";
+            damageLevel = "Invalid Richter Scale Number";
         }
         return damageLevel;
     }
