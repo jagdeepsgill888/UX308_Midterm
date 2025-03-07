@@ -10,4 +10,4 @@ let TotalDollar = InNickel + Indime + InQuarter + InLoonie + InToonie;
 return TotalDollar;
 }
 export { convertCoin2dollar }
-console.log(`The total is ${convertCoin2dollar(1, 2, 3, 4, 5)} dollars`);
+//console.log(`The total is ${convertCoin2dollar(1, 2, 3, 4, 5)} dollars`);
